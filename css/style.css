@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;  
+    
+}
+
+
+
+
+header{
+    color: #F3F3F3;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3%
+    
+    
+}
+
+
+main{
+    height: 30vw
+}
+
+
+.nav1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 0.3;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;   
+    padding: 2% 1%;
+    background-color: #E5E5E5; 
+    height: 90%;
+}
+
+.banner{
+    background-image: url('../img/delivery.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 2%;
+    width: 40%;
+    border-radius: 5px;  
+   
+}
+
+.banner >p {
+    display: inline-block;
+    margin: 5% 0.8%;
+    font-size: 44px;
+    color: #FC200C;
+    font-weight: bold;
+    
+}
+
+#comprando{
+    color:white
+}
+
+.PizzasCard{
+    
+    text-align: center;   
+    width: 40%;
+    background-color: white;
+    border-radius: 5px;  
+    padding-top: 5%
+       
+}
+
+
+
+h2{
+   
+    color: #FC200C;
+    font-size: 38px;
+
+}
+
+h3{
+    padding: 10%;
+    font-size: 30px;
+}
+
+.pizzasText{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+    padding: 5% 10% 0% ;
+    }
+
+.podio{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+li {
+
+    text-align: left;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.nav2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+         
+}
+
+footer{
+    color: #F3F3F3;
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;  
+    align-items: center;
+    height: 150px;   
+    padding: 2% 2%;     
+    
+}
+
